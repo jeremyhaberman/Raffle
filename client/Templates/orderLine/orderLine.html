@@ -1,0 +1,13 @@
+<template name="orderLine">
+    <div data-id = "{{_id}}" class="row" {{focus}}>
+        <div class="form-group">
+            <label >Item#</label>
+            <input type="text" class="form-control item" id="item" placeholder="" value="{{item}}">
+        </div>
+        <div class="form-group">
+            <label >Qty</label>
+            <input type="text" class="form-control quantity" id="quantity" placeholder="" value="{{quantity}}">
+        </div>
+    </div>
+
+</template>

@@ -1,0 +1,22 @@
+<template name="orderEntry">
+    <form class="form-inline">
+        <div class="row">
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Study/Family Name" autofocus >
+            </div>
+            <div class="form-group">
+                <span>Total: ${{total}} ({{quantity}})</span>
+            </div>
+        </div>
+        <br>
+        {{#each tickets}}
+            {{> orderLine }}
+        {{/each}}
+        <br>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+
+
+</template>

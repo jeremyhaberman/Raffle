@@ -1,0 +1,11 @@
+<template name="prizeList">
+
+    <ul>
+    {{#each prizes}}
+        <a href="{{pathFor 'prizeDetails'}}">
+            <li><strong>Item {{item}} - {{name}} (${{price}}{{winners}})</strong>{{description}} {{value}} <i>{{donator}}</i> #Tickets: {{numTickets}}</li>
+        </a>
+    {{/each}}
+    </ul>
+
+</template>

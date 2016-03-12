@@ -1,0 +1,18 @@
+<template name="orderDetails">
+    <div class="row">
+        <span>Name : {{name}}</span>
+    </div>
+    <div class="row">
+        <span>Total : ${{grandTotal}}</span>
+    </div>
+    <br>
+    <div class="row">
+        <ul>
+
+        {{#each tickets}}
+            <li>Item# {{item}} - Quantity: {{quantity}}</li>
+        {{/each}}
+        </ul>
+    </div>
+
+</template>

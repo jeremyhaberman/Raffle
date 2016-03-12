@@ -1,0 +1,20 @@
+<template name ="orderList">
+    <div>
+        Total All Orders: ${{sum}}
+    </div>
+
+    <ul>
+        {{#each orders}}
+            <li data-id="{{_id}}">
+                <a href="{{pathFor 'orderDetails'}}">
+                    {{#if deleted}}
+                        <i>{{name}} - ${{grandTotal}} Created by {{createdBy}} on {{createdDateTime}}</i> - deleted by {{deletedBy}} on {{deletedDateTime}}
+                    {{else}}
+                        {{name}} - ${{grandTotal}} Created by {{createdBy}} on {{createdDateTime}} <i class="fa fa-times" id="remove"></i>
+                    {{/if}}
+                </a>
+            </li>
+        {{/each}}
+    </ul>
+
+</template>

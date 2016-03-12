@@ -1,0 +1,28 @@
+<template name="prizeDetails">
+    <div class="row">
+        <span>Item# {{item}}</span>
+    </div>
+    <div class="row">
+        <span>Name : ${{name}}</span>
+    </div>
+    <div class="row">
+        <span>Price : ${{price}}</span>
+    </div>
+    <div class="row">
+        <span>Number of Winners : {{numWinners}}</span>
+    </div>
+    <br>
+    <div class="row">
+        Tickets:
+    </div>
+    <div class="row">
+        <ul>
+            {{#each tickets}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+    </div>
+
+
+
+</template>
