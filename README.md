@@ -1,7 +1,7 @@
 Raffle
 ======
 
-This is a meteor 1.2.1 based application that is used to automate school raffles.
+This is a meteor 1.2.1 based application that is used to assist with running school raffles.
 
 Features
 --------
@@ -27,14 +27,20 @@ Deployment
 
 * Use Modulus.io or Meteor Galaxy.
 * The user chafey@gmailcom will be created with a random password, check console/logs for this password and login.
+* Once logged in, open the javascript console in the browser and reset the database:
+> Meteor.call('reset');
 
 Pre raffle
 ----------
-* The program needs to be updated with the new prize list for that year.  The raffle committe will deliver a prize
+* The program needs to be updated with the new prize list for that year.  The raffle committee will deliver a prize
   list at some point and it has to be converted manually into code.  This doesn't take too long - 20-30 minutes or so
   so I haven't bothered to create screens for this.
 * The program needs to be updated with the new logo for this years carnival. The logo is stored in
-  /public/carnival graphic color for print.jpg
+  /public/carnival graphic color for web.jpg
+* The program needs to be deployed.  Since meteor no longer provides free hosting, it probably makes sense to bring
+  down the deployment once the raffle is done to avoid paying for something that isn't being used
+* Once deployed, have the volunteers verify the prize data.  There has been mistakes on the data provided as well
+  as data entry so it is important to double check.
 * User accounts need to be created for the volunteers involved in the raffle each year.  Usually there are 2-3 people,
   get their email address and create accounts via the /admin screen then email them the info
 * Volunteers will enter the orders in advance of the raffle.  Be aware that ~50% of the orders are placed the day of
