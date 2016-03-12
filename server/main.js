@@ -10,9 +10,10 @@ Meteor.methods({
         Orders.remove({});
         Prizes.remove({});
         SeedPrizes();
-        SeedOrders();
+        //SeedOrders();
     },
-    runRaffle : function() {
+
+  runRaffle : function() {
         if(!Meteor.userId()) {
             return;
         }

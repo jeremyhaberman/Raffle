@@ -165,8 +165,7 @@ SeedPrizes = function() {
   Prizes.insert(new Prize(134, 3, "Nintendo 3DS"));
   Prizes.insert(new Prize(135, 3, "CASH"));
 
-}
-//SeedPrizes();
+};
 
 SeedOrders = function() {
   if(Orders.find().count() !==0) {
@@ -181,5 +180,4 @@ SeedOrders = function() {
   o2.tickets.push(new Ticket(5, 3));
   Orders.insert(o2);
 
-}
-//SeedOrders();
+};
