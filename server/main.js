@@ -12,7 +12,12 @@ Meteor.methods({
         SeedPrizes();
         //SeedOrders();
     },
-
+  removeAllWinners: function() {
+    if(!Meteor.userId()) {
+      return;
+    }
+    Winners.remove({});
+  },
   runRaffle : function() {
         if(!Meteor.userId()) {
             return;
