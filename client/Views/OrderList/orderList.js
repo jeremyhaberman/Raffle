@@ -6,7 +6,9 @@ Template.orderList.helpers({
         var allOrders = Orders.find().fetch();
         var sum = 0;
         allOrders.forEach(function(order) {
+          if(!order.deleted) {
             sum += order.grandTotal;
+          }
         });
         return sum;
     }
