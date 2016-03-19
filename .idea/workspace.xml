@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47bff07d-c3e7-491d-b7f1-138c349ba9d4" name="Default" comment="added reports for winners and prizes&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Views/Reports/reports.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Views/Reports/reports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Raffle.js" afterPath="$PROJECT_DIR$/client/Raffle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Routes.js" afterPath="$PROJECT_DIR$/client/Routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Views/Admin/admin.html" afterPath="$PROJECT_DIR$/client/Views/Admin/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Templates/includes/header.html" afterPath="$PROJECT_DIR$/client/Templates/includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/onLogin.js" afterPath="$PROJECT_DIR$/client/onLogin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Views/Winners/winners.html" afterPath="$PROJECT_DIR$/client/Views/Winners/winners.html" />
+    <list default="true" id="47bff07d-c3e7-491d-b7f1-138c349ba9d4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Views/Reports/reports.js" afterPath="$PROJECT_DIR$/client/Views/Reports/reports.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Raffle.iws" />
@@ -87,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="winners.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="winners.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/Views/Winners/winners.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.036915503" vertical-offset="0" max-vertical-offset="1219">
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="180">
               <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
               <folding />
             </state>
@@ -107,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reports.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reports.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/Views/Reports/reports.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-              <caret line="35" column="92" selection-start-line="35" selection-start-column="92" selection-end-line="35" selection-end-column="92" />
+            <state vertical-scroll-proportion="0.024135157" vertical-offset="0" max-vertical-offset="1243">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -195,12 +185,12 @@
         <option value="$PROJECT_DIR$/client/Routes.js" />
         <option value="$PROJECT_DIR$/client/Views/Reports/reports.html" />
         <option value="$PROJECT_DIR$/server/main.js" />
-        <option value="$PROJECT_DIR$/client/Views/Reports/reports.js" />
         <option value="$PROJECT_DIR$/client/Views/Admin/admin.js" />
         <option value="$PROJECT_DIR$/client/Views/Admin/admin.html" />
         <option value="$PROJECT_DIR$/client/onLogin.js" />
         <option value="$PROJECT_DIR$/client/Raffle.js" />
         <option value="$PROJECT_DIR$/client/Views/Winners/winners.html" />
+        <option value="$PROJECT_DIR$/client/Views/Reports/reports.js" />
       </list>
     </option>
   </component>
@@ -751,7 +741,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457800177451</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added reports for winners and prizes&#10;fixed bug where winners wasn't published for users not logged in&#10;made winners text bigger so it can be more easily seen">
+      <created>1458416393878</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1458416393878</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -817,7 +813,8 @@
     <MESSAGE value="removed seeding of fake orders when resetting the db" />
     <MESSAGE value="updated readme" />
     <MESSAGE value="added reports for winners and prizes&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="added reports for winners and prizes&#10;" />
+    <MESSAGE value="added reports for winners and prizes&#10;fixed bug where winners wasn't published for users not logged in&#10;made winners text bigger so it can be more easily seen" />
+    <option name="LAST_COMMIT_MESSAGE" value="added reports for winners and prizes&#10;fixed bug where winners wasn't published for users not logged in&#10;made winners text bigger so it can be more easily seen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1149,14 +1146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/Views/Reports/reports.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <caret line="35" column="92" selection-start-line="35" selection-start-column="92" selection-end-line="35" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/Views/Admin/admin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
@@ -1207,8 +1196,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/Views/Winners/winners.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.036915503" vertical-offset="0" max-vertical-offset="1219">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="180">
           <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Views/Reports/reports.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024135157" vertical-offset="0" max-vertical-offset="1243">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,6 @@
 Template.reports.events({
   'click #winners' : function(event) {
-    var prizes = Prizes.find(
+    var winners = Prizes.find(
       {},
       {
         fields: {
