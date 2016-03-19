@@ -23,6 +23,10 @@ Router.route('/runRaffle', {
 Router.route('/admin', {
     name: 'admin'
 });
+Router.route('/reports', {
+  name: 'reports'
+});
+
 Router.route('/orderDetails/:_id', {
     name: "orderDetails",
     data: function() {return Orders.findOne(this.params._id);}
