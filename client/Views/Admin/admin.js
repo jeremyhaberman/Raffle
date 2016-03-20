@@ -1,7 +1,10 @@
+Template.admin.helpers({
+  'allUsers' : function() {
+    return Meteor.users.find();
+  }
+});
+
 Template.admin.events({
-    'click #reset' : function() {
-        Meteor.call("reset");
-    },
     'submit ' : function() {
         var email = $('#email').val();
         var username = $('#username').val();

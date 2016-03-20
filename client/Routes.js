@@ -38,7 +38,10 @@ Router.route('/prizeDetails/:_id', {
 Router.route('/winnerDetails/:_id', {
     name: "winnerDetails",
     layoutTemplate: '',
-    data: function() {return Winners.findOne({prizeNum: parseInt(this.params._id)});}
+    data: function() {
+      console.log('in router:' + this.params._id);
+      return Winners.findOne({prizeNum: parseInt(this.params._id)});
+    }
 });
 var OnBeforeActions;
 

@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47bff07d-c3e7-491d-b7f1-138c349ba9d4" name="Default" comment="">
+    <list default="true" id="47bff07d-c3e7-491d-b7f1-138c349ba9d4" name="Default" comment="added list of users to admin screen&#10;prize counts are now auto updated after each order entry insert&#10;added buttont">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/publishAllUsers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Routes.js" afterPath="$PROJECT_DIR$/client/Routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Views/Admin/admin.html" afterPath="$PROJECT_DIR$/client/Views/Admin/admin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Views/Admin/admin.js" afterPath="$PROJECT_DIR$/client/Views/Admin/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/onLogin.js" afterPath="$PROJECT_DIR$/client/onLogin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Views/OrderEntry/orderEntry.js" afterPath="$PROJECT_DIR$/client/Views/OrderEntry/orderEntry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Views/Reports/reports.html" afterPath="$PROJECT_DIR$/client/Views/Reports/reports.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Views/Reports/reports.js" afterPath="$PROJECT_DIR$/client/Views/Reports/reports.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Views/RunRaffle/runRaffle.html" afterPath="$PROJECT_DIR$/client/Views/RunRaffle/runRaffle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Views/RunRaffle/runRaffle.js" afterPath="$PROJECT_DIR$/client/Views/RunRaffle/runRaffle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Raffle.iws" />
@@ -27,61 +36,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Winner.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/Winner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="8" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/Views/Admin/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/Routes.js">
+      <file leaf-file-name="runRaffle.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/Views/RunRaffle/runRaffle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Winners.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/Winners.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="onLogin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/onLogin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Raffle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/Raffle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="winners.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/Views/Winners/winners.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="180">
-              <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.13274336" vertical-offset="0" max-vertical-offset="1243">
+              <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -90,34 +69,59 @@
       <file leaf-file-name="reports.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/Views/Reports/reports.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
-              <caret line="0" column="23" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="23" />
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="210">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reports.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/Views/Reports/reports.js">
+      <file leaf-file-name="winnerDetails.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Views/winnerDetails/winnerDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.024135157" vertical-offset="0" max-vertical-offset="1243">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5595">
+              <caret line="58" column="53" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/main.js">
+      <file leaf-file-name="winnerDetails.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Views/winnerDetails/winnerDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <marker date="1458416262000" expanded="true" signature="77:2802" placeholder="{...}" />
-                <marker date="1458416262000" expanded="true" signature="172:350" placeholder="{...}" />
-                <marker date="1458416262000" expanded="true" signature="201:278" placeholder="{...}" />
-                <marker date="1458416262000" expanded="true" signature="299:338" placeholder="{...}" />
-              </folding>
+            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="480">
+              <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="onLogin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/onLogin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publishAllUsers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/publishAllUsers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ticket.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/Ticket.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,8 +129,8 @@
       <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/Views/Admin/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="510">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="540">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -140,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Client/Views/Home/home.js" />
         <option value="$PROJECT_DIR$/Client/Views/Home/home.html" />
         <option value="$PROJECT_DIR$/client/Views/Home/home.js" />
         <option value="$PROJECT_DIR$/client/Views/includes/layout.html" />
@@ -163,14 +166,12 @@
         <option value="$PROJECT_DIR$/client/Views/Prizes/prizes.html" />
         <option value="$PROJECT_DIR$/client/Views/PrizeDetails/prizeDetails.html" />
         <option value="$PROJECT_DIR$/client/Views/Prizes/prizes.js" />
-        <option value="$PROJECT_DIR$/client/Views/OrderEntry/orderEntry.js" />
         <option value="$PROJECT_DIR$/client/Views/OrderList/orderList.js" />
         <option value="$PROJECT_DIR$/client/Views/OrderList/orderList.html" />
         <option value="$PROJECT_DIR$/Model/Winner.js" />
         <option value="$PROJECT_DIR$/client/Raffle.css" />
         <option value="$PROJECT_DIR$/client/Views/Winners/winners.js" />
         <option value="$PROJECT_DIR$/client/Views/winnerDetails/winnerDetails.html" />
-        <option value="$PROJECT_DIR$/client/Views/winnerDetails/winnerDetails.js" />
         <option value="$PROJECT_DIR$/client/Views/Drawing/drawing.html" />
         <option value="$PROJECT_DIR$/.meteor/packages" />
         <option value="$PROJECT_DIR$/Collections/Orders.js" />
@@ -179,18 +180,21 @@
         <option value="$PROJECT_DIR$/Collections/Winners.js" />
         <option value="$PROJECT_DIR$/server/Seed.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/client/Views/RunRaffle/runRaffle.js" />
-        <option value="$PROJECT_DIR$/client/Views/RunRaffle/runRaffle.html" />
-        <option value="$PROJECT_DIR$/client/Templates/includes/header.html" />
-        <option value="$PROJECT_DIR$/client/Routes.js" />
-        <option value="$PROJECT_DIR$/client/Views/Reports/reports.html" />
         <option value="$PROJECT_DIR$/server/main.js" />
-        <option value="$PROJECT_DIR$/client/Views/Admin/admin.js" />
-        <option value="$PROJECT_DIR$/client/Views/Admin/admin.html" />
-        <option value="$PROJECT_DIR$/client/onLogin.js" />
         <option value="$PROJECT_DIR$/client/Raffle.js" />
         <option value="$PROJECT_DIR$/client/Views/Winners/winners.html" />
+        <option value="$PROJECT_DIR$/client/Templates/includes/header.html" />
         <option value="$PROJECT_DIR$/client/Views/Reports/reports.js" />
+        <option value="$PROJECT_DIR$/client/Views/OrderEntry/orderEntry.js" />
+        <option value="$PROJECT_DIR$/client/Views/RunRaffle/runRaffle.html" />
+        <option value="$PROJECT_DIR$/client/Routes.js" />
+        <option value="$PROJECT_DIR$/client/onLogin.js" />
+        <option value="$PROJECT_DIR$/server/publishAllUsers.js" />
+        <option value="$PROJECT_DIR$/client/Views/Admin/admin.js" />
+        <option value="$PROJECT_DIR$/client/Views/Admin/admin.html" />
+        <option value="$PROJECT_DIR$/client/Views/Reports/reports.html" />
+        <option value="$PROJECT_DIR$/client/Views/winnerDetails/winnerDetails.js" />
+        <option value="$PROJECT_DIR$/client/Views/RunRaffle/runRaffle.js" />
       </list>
     </option>
   </component>
@@ -747,7 +751,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458416393878</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="oops fixed bug with winners report">
+      <created>1458416984774</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1458416984774</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -814,24 +824,19 @@
     <MESSAGE value="updated readme" />
     <MESSAGE value="added reports for winners and prizes&#10;" />
     <MESSAGE value="added reports for winners and prizes&#10;fixed bug where winners wasn't published for users not logged in&#10;made winners text bigger so it can be more easily seen" />
-    <option name="LAST_COMMIT_MESSAGE" value="added reports for winners and prizes&#10;fixed bug where winners wasn't published for users not logged in&#10;made winners text bigger so it can be more easily seen" />
+    <MESSAGE value="oops fixed bug with winners report" />
+    <option name="LAST_COMMIT_MESSAGE" value="oops fixed bug with winners report" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/Views/Admin/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/Views/OrderEntry/orderEntry.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -856,37 +861,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/Views/winnerDetails/winnerDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="480">
-          <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.8" vertical-offset="0" max-vertical-offset="495">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/carnival graphic color for web.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/Winner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/Ticket.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/Prize.js">
@@ -900,20 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/Prizes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/Orders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -935,13 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Views/winnerDetails/winnerDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5595">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -977,13 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="375">
           <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Views/OrderEntry/orderEntry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1094,94 +1043,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/Views/RunRaffle/runRaffle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <marker date="1458412606000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1458412606000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1458412606000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1458412606000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1458412606000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1458412606000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Templates/includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="525">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Views/RunRaffle/runRaffle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1458416262000" expanded="true" signature="77:2802" placeholder="{...}" />
-            <marker date="1458416262000" expanded="true" signature="172:350" placeholder="{...}" />
-            <marker date="1458416262000" expanded="true" signature="201:278" placeholder="{...}" />
-            <marker date="1458416262000" expanded="true" signature="299:338" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Views/Reports/reports.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Views/Admin/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Views/Admin/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="510">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Winners.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/onLogin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1204,8 +1069,152 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/Views/Reports/reports.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024135157" vertical-offset="0" max-vertical-offset="1243">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.8" vertical-offset="0" max-vertical-offset="540">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Templates/includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="525">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Views/OrderEntry/orderEntry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/Orders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Views/RunRaffle/runRaffle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/Prizes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="20" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Ticket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Winner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="8" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/publishAllUsers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/onLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Views/Admin/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Views/Admin/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="540">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Views/Reports/reports.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="210">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Views/winnerDetails/winnerDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="480">
+          <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Views/winnerDetails/winnerDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="5595">
+          <caret line="58" column="53" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Views/RunRaffle/runRaffle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13274336" vertical-offset="0" max-vertical-offset="1243">
+          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
           <folding />
         </state>
       </provider>

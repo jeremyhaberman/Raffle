@@ -5,11 +5,17 @@ Template.runRaffle.events({
       }
     },
   'click #runRaffle' : function() {
-    if(confirm('Are you sure you want to pick winners for all prizes?  This should only be done once all prize data is entered!')) {
+    if(Winners.find().count() > 0) {
+      alert('Winners exist for this raffle - please delete them before running again');
+      return;
+    }
+    if(confirm('Are you sure you want to pick winners for all prizes?')) {
       Meteor.call('runRaffle');
     }
   },
-  'click #updatePrizes' : function() {
-        Meteor.call('updatePrizes');
-    }
+  'click #revealWinners' : function() {
+    var url = '/winnerDetails/1';
+    //Router.go(url);
+    window.location = url;
+  }
 });

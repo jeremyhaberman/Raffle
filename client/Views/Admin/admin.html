@@ -1,12 +1,6 @@
 <template name="admin">
     <br>
     <br>
-    <!--
-    <button id="reset">Reset Database</button>
-    -->
-    <br>
-    <br>
-    <br>
     <br>
     <h3>Add User:</h3>
     <form class="form-inline">
@@ -25,5 +19,13 @@
         <button type="submit" class="btn btn-primary">Add</button>
     </form>
 
+
+    <h3>Users</h3>
+    <ul>
+    {{#each allUsers}}
+        <li>{{emails.[0].address}} - {{profile.name}}</li>
+
+    {{/each}}
+    </ul>
 
 </template>

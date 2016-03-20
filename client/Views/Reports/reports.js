@@ -1,20 +1,23 @@
 Template.reports.events({
   'click #winners' : function(event) {
-    var winners = Prizes.find(
+    var winners = Winners.find(
       {},
       {
         fields: {
-          item: 1,
-          name: 1,
+          prizeNum : 1,
           prizeName: 1,
-          winnerName: 1
+          item : 1,
+          winnerName : 1,
         }, sort: {
           item: 1
         }
       }
     ).fetch();
+
+    // use harrison:papa-parse package to convert javascript to csv
     var winnersCSV = Papa.unparse(winners);
     var oMyBlob = new Blob([winnersCSV], {type : 'text/csv'});
+    // use pfafman:filesaver package to save the file locally
     saveAs( oMyBlob, 'winners.csv');
   },
   'click #prizes' : function() {
@@ -37,8 +40,10 @@ Template.reports.events({
     prizes.forEach(function(prize) {
       prize.tickets = prize.tickets.length;
     });
+    // use harrison:papa-parse package to convert javascript to csv
     var prizesCSV = Papa.unparse(prizes);
     var oMyBlob = new Blob([prizesCSV], {type : 'text/csv'});
+    // use pfafman:filesaver package to save the file locally
     saveAs( oMyBlob, 'prizes.csv');
   }
 });

@@ -36,6 +36,7 @@ Template.orderEntry.events({
         $('#name').val("").focus();
         Session.set("total", 0);
         Session.set("quantity", 0);
+        Meteor.call('updatePrizes');
         return false;
     }
 });
