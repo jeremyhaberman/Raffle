@@ -7,9 +7,9 @@ function SeedUsers() {
   var password = Random.secret(10);
 
   Accounts.createUser({
-    email: "chafey@gmail.com",
+    email: "jphaberman@gmail.com",
     password : password,
-    profile: {name : "Chris Hafey"}
+    profile: {name : "Jeremy Haberman"}
   });
 
   console.log('random password for chafey@gmail.com: ' + password);
