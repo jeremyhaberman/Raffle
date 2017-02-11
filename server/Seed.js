@@ -15,6 +15,7 @@ function SeedUsers() {
   console.log('random password for chafey@gmail.com: ' + password);
 
 }
+
 SeedUsers();
 
 SeedPrizes = function() {
