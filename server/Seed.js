@@ -12,7 +12,7 @@ function SeedUsers() {
     profile: {name : "Jeremy Haberman"}
   });
 
-  console.log('random password for chafey@gmail.com: ' + password);
+  console.log('random password for jphaberman@gmail.com: ' + password);
 
 }
 
