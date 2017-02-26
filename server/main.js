@@ -3,15 +3,15 @@ Accounts.config({
 });
 
 Meteor.methods({
-    reset: function() {
-        if(!Meteor.userId()) {
-            return;
-        }
-        Orders.remove({});
-        Prizes.remove({});
-        SeedPrizes();
-        //SeedOrders();
-    },
+  reset: function() {
+      if(!Meteor.userId()) {
+          return;
+      }
+      Orders.remove({});
+      Prizes.remove({});
+      SeedPrizes();
+      //SeedOrders();
+  },
   removeAllWinners: function() {
     if(!Meteor.userId()) {
       return;
