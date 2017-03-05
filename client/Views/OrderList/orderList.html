@@ -1,17 +1,24 @@
 <template name ="orderList">
-    <div>
+    <p>
         Total All Orders: ${{sum}}
-    </div>
+    </p>
 
     <ul>
-        {{#each orders}}
+        {{#each activeOrders}}
             <li data-id="{{_id}}">
                 <a href="{{pathFor 'orderDetails'}}">
-                    {{#if deleted}}
-                        <i>{{name}} - ${{grandTotal}} Created by {{createdBy}} on {{createdDateTime}}</i> - deleted by {{deletedBy}} on {{deletedDateTime}}
-                    {{else}}
-                        {{name}} - ${{grandTotal}} Created by {{createdBy}} on {{createdDateTime}} <i class="fa fa-times" id="remove"></i>
-                    {{/if}}
+                  {{name}} - ${{grandTotal}} Created by {{createdBy}} on {{createdDateTime}} <i class="fa fa-times" id="remove"></i>
+                </a>
+            </li>
+        {{/each}}
+    </ul>
+
+    <p>Deleted Orders</p>
+    <ul>
+        {{#each deletedOrders}}
+            <li data-id="{{_id}}">
+                <a href="{{pathFor 'orderDetails'}}">
+                  <i>{{name}} - ${{grandTotal}} Created by {{createdBy}} on {{createdDateTime}}</i> - deleted by {{deletedBy}} on {{deletedDateTime}}
                 </a>
             </li>
         {{/each}}

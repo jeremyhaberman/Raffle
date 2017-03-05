@@ -1,6 +1,9 @@
 Template.orderList.helpers({
-  orders: function() {
-     return Orders.find({}, {sort: {createdDateTime: -1}});
+  activeOrders: function() {
+    return Orders.find({ "deleted" : false }, {sort: {createdDateTime: -1}});
+  },
+  deletedOrders: function() {
+    return Orders.find({ "deleted" : true }, {sort: {createdDateTime: -1}});
   },
   sum : function() {
       var allOrders = Orders.find().fetch();
@@ -23,5 +26,4 @@ Template.orderList.events({
             deletedDateTime: new Date()
         }});
     }
-
 });
