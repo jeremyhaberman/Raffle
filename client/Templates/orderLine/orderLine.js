@@ -39,4 +39,3 @@ Template.orderLine.events({
         },5);
     }
 });
-
