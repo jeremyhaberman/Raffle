@@ -73,4 +73,16 @@ for all the prizes based on the orders entered at that time.  To reveal the winn
 /winnerDetails/1
 
 hit space bar to reveal the winner (and watch cool fireworks), then spacebar to go to next prize winner.  You can go
-to any prize number by changing the URL to the right prize/item #
+to any prize number by changing the URL to the right prize/item
+
+## Reloading prizes
+-------------------
+
+One option for loading new prizes:
+
+1. Clear out old prizes.
+1. Get prize list from carnival organizers in a spreadsheet format.
+1. Copy and paste only the prize names to a text file (e.g. prize-list.txt)
+1. Run `python3.7 generate-prize-inserts.py prize-list.txt prize-inserts.txt`
+1. Log in to the Raffle web app and open the JavaScript console
+1. Copy and paste the commands from prize-inserts.txt into the console
