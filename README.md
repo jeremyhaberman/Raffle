@@ -1,9 +1,9 @@
-Raffle
+# Raffle
 ======
 
 This is a meteor 1.2.1 based application that is used to assist with running school raffles.
 
-Features
+## Features
 --------
 
 * Requires modern HTMl5 browser - google chrome is what I use and recommend
@@ -15,14 +15,14 @@ Features
 * Reveal winners /winnerDetails/{prize#} where prize# starts with 1 and goes to the # of prizes
 * Create users /admin
 
-Development
+## Development
 -----------
 
 * Install meteor (www.meteor.com)
 * Pull source code
 * Run meteor.  The user chafey@gmailcom will be created with a random password, check console/logs for this password and login
 
-Deployment
+## Deployment
 ----------
 
 * Use Modulus.io or Meteor Galaxy.
@@ -30,7 +30,7 @@ Deployment
 * Once logged in, open the javascript console in the browser and reset the database:
 > Meteor.call('reset');
 
-Pre raffle
+## Pre raffle
 ----------
 * The program needs to be updated with the new prize list for that year.  The raffle committee will deliver a prize
   list at some point and it has to be converted manually into code.  This doesn't take too long - 20-30 minutes or so
@@ -46,7 +46,7 @@ Pre raffle
 * Volunteers will enter the orders in advance of the raffle.  Be aware that ~50% of the orders are placed the day of
   the raffle.  They should be fine if you have the system up and running the week of the carnival
 
-Setup (night of raffle)
+## Setup (night of raffle)
 -----------------------
 
 * Main gym - laptop and two projectors.  The school provides the projectors, I use my own laptop.
@@ -64,7 +64,7 @@ Setup (night of raffle)
   using a web browser.
 
 
-Running the raffle
+## Running the raffle
 ------------------
 
 Once all orders have been entered, go to the /runRaffle page and click the button "Run Raffle".  This will pick winners
